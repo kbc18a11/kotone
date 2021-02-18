@@ -1,0 +1,32 @@
+header .menu {
+    width: 200px;
+    text-align: center;
+    background: navy;
+    color: white;
+  }
+  
+ header .sub-menu {
+    background: white;
+    display: none;
+  }
+  
+ header li{
+    border: 1px solid navy;
+  }
+  
+ header ul {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+ header a {
+    text-decoration: none;
+    color: navy;
+  }
+  
+ header .menu:hover .sub-menu {
+    display: block;
+  }
+ 

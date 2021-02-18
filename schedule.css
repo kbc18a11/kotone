@@ -1,0 +1,102 @@
+body{
+    width: auto;
+}
+
+.box1 {
+    padding: 0.2em 0.5em;        /* カレンダーアイコン作成・デザイン */
+    margin: 2em 0;
+    color: #565656;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.box1 #date{
+    margin-top: 80px;
+}
+
+.box1 label{
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+}
+
+.box1 input[type="date"] {
+    width: 400px;
+    height: 30px;
+    font-size:20px;
+    font-family: "メイリオ";
+    margin: 15px;
+}
+
+.box1 input[type="text"] {
+    width: 400px;
+    height: 30px;
+    font-size:20px;
+    font-family: "メイリオ";
+    margin: 15px;
+}
+
+.box1 #form_3{
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    font-family: "メイリオ";
+    margin: 15px;
+}
+
+.box1 #form_4{
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    font-family: "メイリオ";
+    margin: 15px;
+}
+
+#back #backButton{ /* 戻るボタン */
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #248;
+    color: #fff;
+    border-style: none;
+}
+
+#back #backButton:hover{
+    background-color: #24d;
+    color: #fff;
+}
+
+#report #save{ /* 保存ボタン */
+    float: right;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #248;
+    color: #fff;
+    border-style: none;
+}
+
+#report #delete{ /* 削除ボタン */
+    float: right;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #248;
+    color: #fff;
+    border-style: none;
+}
+
+#report #save:hover{ /* 保存ボタン */
+    background-color: #24d;
+    color: #fff;
+}
+
+#report #delete:hover{ /* 削除ボタン */
+    background-color: #24d;
+    color: #fff;
+}

@@ -1,0 +1,354 @@
+header .menu {
+    width: 200px;
+    text-align: center;
+    background: navy;
+    color: white;
+  }
+  
+header .sub-menu {
+    background: white;
+    display: none;
+  }
+  
+header li{
+    border: 1px solid navy;
+  }
+  
+header ul {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+header a {
+    text-decoration: none;
+    color: navy;
+  }
+  
+header .menu:hover .sub-menu {
+    display: block;
+  }
+
+h1{
+    text-align: center;
+}
+
+#leftBox{
+    width: 50%;    /* 左側 */
+    float:left;
+}
+
+#rightBox{
+    width: 50%;    /* 右側 */
+    float:right;
+}
+
+#tabbody .tab1{ /* 縦スクロール追加 */
+    width:100%;
+    height:300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#tabbody .tab2{ /* 縦スクロール追加 */
+    width:100%;
+    height:300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#tabbody .tab3{ /* 縦スクロール追加 */
+    width:100%;
+    height:300px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+#rightBox table{
+    width:100%
+}
+
+.box3 {
+    margin-top:10px;  /* 金額入力　記録ボタンを調整する */
+    padding:0;
+    width:100%;
+}
+
+.box4 {
+    margin-top:10px;
+    padding:0;
+    width:100%;
+}
+
+.number input::placeholder { /*　金額を入力　*/
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight : bold ;
+}
+
+.number input[type=number]{   /*　金額入力　*/
+    border: 2px solid #000;
+    border-right: 0px;
+    margin:0;
+    padding:0;
+    width: 50%;
+    height:50px;
+    float:left;
+    box-sizing: border-box;
+}
+
+.iconName input::placeholder { /*　金額を入力　*/
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight : bold ;
+}
+
+.iconName input[type=text]{   /* アイコン名を入力 */
+    border: 2px solid #000;
+    border-right: 0px;
+    margin:0;
+    padding:0;
+    width: 50%;
+    height:50px;
+    float:left;
+    box-sizing: border-box;
+}
+
+.button button.button1 {  /* 確定ボタン */
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    margin:0;
+    padding:0;
+    width: 50%;
+    height:50px;
+    font-weight : bold ;
+    float:left;
+    box-sizing: border-box;
+}
+
+.button button.button1:hover { /* 確定ボタンに重ねると */
+    color: #fff;
+    background: #000;
+}
+
+.senbetu #senbetu2 {  /* 確定ボタン */
+    border: 2px solid #000;
+    border-right: 0px;
+    border-radius: 0;
+    background: #fff;
+    margin:0;
+    padding:0;
+    width: 25%;
+    height:50px;
+    font-weight : bold ;
+    float:left;
+    box-sizing: border-box;
+}
+
+.button button.button1:hover { /* 確定ボタンに重ねると */
+    color: #fff;
+    background: #000;
+}
+
+.box3 .reset #resetButton{ /* リセットボタン */
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    margin:0;
+    padding:0;
+    width: 25%;
+    height:50px;
+    box-sizing: border-box;
+}
+
+.box3 .reset #resetButton:hover{ 
+    color: #fff;
+    background: #000;
+}
+
+.box4 .report2 #reportButton{ /* レポートボタン */
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+    margin:0;
+    padding:0;
+    width: 25%;
+    height:50px;
+    box-sizing: border-box;
+}
+
+.box4 .report2 #reportButton:hover{ 
+    color: #fff;
+    background: #000;
+}
+
+.box1 {
+    padding: 0.2em 0.5em;        /* カレンダーアイコン作成・デザイン */
+    margin: 2em 0;
+    color: #565656;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box1 label{
+    width: 400px;
+    height: 30px;
+}
+
+.box1 input[type="date"] {
+    width: 400px;
+    height: 30px;
+    font-family: "メイリオ";
+}
+
+     /* 家計簿アイコン */
+
+.box2 #tabbody #tabpage1{
+    overflow:auto;               /* タブの枠線はみ出るからfloat解除 */ 
+    background-color: #ffffdd;
+}
+
+
+.box2 #tabbody #tabpage2{
+    overflow:auto;               /* タブの枠線はみ出るからfloat解除 */ 
+    background-color: #ddffdd;
+}
+
+.box2 #tabbody #tabpage3{
+    overflow:auto;               /* タブの枠線はみ出るからfloat解除 */ 
+    background-color: #ddddff;
+}
+
+.box2 #tabbody #tabpage1 .icon{
+    border: solid 2px #000000;   /* アイコン枠線 */
+    border-radius: 10px;           /* アイコン枠線（角丸）*/
+    margin: 4px;                   /* アイコン同士の間隔 */
+    text-align:center;             /* アイコン画像中央寄せ */
+    width:118px;                    /* 4文字のアイコン名ならこの幅がベスト */
+    float: left;
+    /*100行目から114行目でアイコンの判定拡大*/
+    position: relative;
+    z-index: 2; /* 必要であればリンク要素の重なりのベース順序指定 */
+}
+
+.box2 #tabbody #tabpage1 .icon button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 1;
+    opacity:0;
+}
+
+.box2 #tabbody #tabpage2 .icon{
+    border: solid 2px #000000;   /* アイコン枠線 */
+    border-radius: 10px;           /* アイコン枠線（角丸）*/
+    margin: 4px;                   /* アイコン同士の間隔 */
+    text-align:center;             /* アイコン画像中央寄せ */
+    width:120px;                    /* 4文字のアイコン名ならこの幅がベスト */
+    position: relative;
+    z-index: 2; /* 必要であればリンク要素の重なりのベース順序指定 */
+}
+
+.box2 #tabbody #tabpage2 .icon button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 1;
+    opacity:0;
+}
+
+.box2 #tabbody #tabpage3 .icon{
+    border: solid 2px #000000;   /* アイコン枠線 */
+    border-radius: 10px;           /* アイコン枠線（角丸）*/
+    margin: 10px;                   /* アイコン同士の間隔 */
+    text-align:center;             /* アイコン画像中央寄せ */
+    width:120px;                    /* 4文字のアイコン名ならこの幅がベスト */
+    float: left;
+    position: relative;
+    z-index: 2; /* 必要であればリンク要素の重なりのベース順序指定 */
+}
+
+.box2 #tabbody #tabpage3 .icon button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.box2 #tabbody span{
+    float: left;                   /* 左寄せする */
+} 
+
+.box2 #tabbody #tabpage1 .icon span{
+    display: inline-block;          /* spanを中央寄せする。 */
+    width: 100%;
+    text-align: center;
+}
+
+.box2 #tabbody #tabpage2 .icon span{
+    display: inline-block;          /* spanを中央寄せする。 */
+    width: 100%;
+    text-align: center;
+}
+
+.box2 #tabbody #tabpage3 .icon span{
+    display: inline-block;          /* spanを中央寄せする。 */
+    width: 100%;
+    text-align: center;
+}
+
+         /*  タブ  */
+
+
+
+.box2 #tabcontrol {
+    margin-block-start: 0em;       /* 収入支出のタブ作成 */
+    margin-block-end: 0em;
+}
+
+/* ▼タブ */
+.box2 #tabcontrol a {
+    display: inline-block;            /* インラインブロック化 */
+    border-width: 1px 1px 0px 1px;    /* 下以外の枠線を引く */
+    border-style: solid;              /* 枠線の種類：実線 */
+    border-color: black;              /* 枠線の色：黒色 */
+    border-radius: 0.75em 0.75em 0 0; /* 枠線の左上角と右上角だけを丸く */
+    padding: 0.75em 1em;              /* 内側の余白 */
+    text-decoration: none;            /* リンクの下線を消す */
+    color: black;                     /* 文字色：黒色 */
+    background-color: white;          /* 背景色：白色 */
+    font-weight: bold;                /* 太字 */
+    position: relative;               /* JavaScriptでz-indexを調整するために必要 */
+ }
+ /* ▼タブにマウスポインタが載った際(任意) */
+ .box2 #tabcontrol a:hover {
+    text-decoration: underline;       /* 文字に下線を引く */
+ }
+
+ .box2 #tabbody div {
+    border: 1px solid black; /* 枠線：黒色の実線を1pxの太さで引く */
+    margin-top: -1px;        /* 上側にあるタブと1pxだけ重ねるために「-1px」を指定 */
+    padding: 1em;            /* 内側の余白量 */
+    background-color: white; /* 背景色：白色 */
+    position: relative;      /* z-indexを調整するために必要 */
+    z-index: 0;              /* 重なり順序を「最も背面」にするため */
+ }
+
+ /* ▼タブの配色 */
+.box2 #tabcontrol a:nth-child(1), #tabbody div:nth-child(1) { background-color: #ffffdd; }/* 1つ目のタブとその中身用の配色 */
+.box2 #tabcontrol a:nth-child(2), #tabbody div:nth-child(2) { background-color: #ddffdd; }/* 2つ目のタブとその中身用の配色 */
+.box2 #tabcontrol a:nth-child(3), #tabbody div:nth-child(3) { background-color: #ddddff; }/* 3つ目のタブとその中身用の配色 */
