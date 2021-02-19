@@ -45,10 +45,10 @@ if (!empty($_POST['year'])) {
             <div class="menu-title">メニュー</div>
             <div class="sub-menu">
                 <ul>
-                    <li><a href="http://localhost/topBbs.php">トップページ</a></li>
-                    <li><a href="http://localhost/kakeiboBbs.php">家計簿入力</a></li>
-                    <li><a href="http://localhost/list.php">家計簿表</a></li>
-                    <li><a href="http://localhost/logout.php">ログアウト</a></li>
+                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php">トップページ</a></li>
+                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/kakeiboBbs.php">家計簿入力</a></li>
+                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/list.php">家計簿表</a></li>
+                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/logout.php">ログアウト</a></li>
                 </ul>
             </div>
         </div>
@@ -301,8 +301,8 @@ if (!empty($_POST['year'])) {
                 }
                 $total = $uketoru - $harau;
                 echo "<tr style='background-color:rgb(255, 239, 213)'><td>支出合計</td><td style='text-align:right'>" . $harau . "円</td></tr>";
-                echo "<tr style='background-color:rgb(224, 255, 255)'><td>収入合計</td><td style='text-align:right'>" . $uketoru . "円</td></tr>";    
-                echo "<tr style='background-color: rgb(255, 255, 153)'><td>合計</td><td style='text-align:right'>".$total."円</td></tr>";
+                echo "<tr style='background-color:rgb(224, 255, 255)'><td>収入合計</td><td style='text-align:right'>" . $uketoru . "円</td></tr>";
+                echo "<tr style='background-color: rgb(255, 255, 153)'><td>合計</td><td style='text-align:right'>" . $total . "円</td></tr>";
             }
             ?>
         </table>
