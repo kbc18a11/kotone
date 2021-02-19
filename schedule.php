@@ -32,8 +32,8 @@ try {
         $stmt->bindParam(':contents', $title, PDO::PARAM_STR);
         $stmt->bindParam(':flg', $flg, PDO::PARAM_STR);
         $stmt->execute();
-        var_dump("通ってるよ");
-        header('Location: topBbs.php');
+        //var_dump("通ってるよ");
+        header('Location: http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php');
         exit();
 } catch (PDOException $e) {
     die('エラー' . $e->getMessage());
