@@ -25,7 +25,9 @@ if (isset($_SESSION['userid'])) { //セッションにユーザーIDがある
         $stmt->bindParam(':mail',$_POST['mail'],PDO::PARAM_STR);
         $stmt->bindParam(':pass',$pwd,PDO::PARAM_STR);//sha1(数字の１)
         $stmt->execute();
+        file_put_contents('abc.txt',$_row['id']);
         if($row = $stmt->fetch()){
+            file_put_contents('id.txt',$_row['id']);
         //ユーザーが存在していたので、セッションにユーザIDをセット
             $_SESSION['id'] = $row['id'];
             header('Location:topBbs.php');
