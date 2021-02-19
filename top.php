@@ -255,7 +255,7 @@ try {
         $_SESSION[$hantei] = $result['judge']; //0か１
         //var_dump("被ってない");
         //var_dump($_SESSION['no']);
-        header('Location: topBbs.php');
+        header('Location: http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php');
         exit();
     }
 } catch (PDOException $e) {
