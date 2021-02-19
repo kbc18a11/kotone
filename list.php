@@ -9,8 +9,8 @@ if (!empty($_POST['year'])) {
     $day = $_POST['day']; //日
     $date = (string)$year . '年' . (string)$month . '月' . (string)$day;
     $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-    $user = 'root';
-    $password = '';
+    $user = 'hoge';
+    $password = 'yarou114514';
     try {
         $flg = "0";
         $db = new PDO($dsn, $user, $password);
@@ -255,8 +255,8 @@ if (!empty($_POST['year'])) {
             $lmonth = '';
             $lday = '';
             $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-            $user = 'root';
-            $password = '';
+            $user = 'hoge';
+            $password = 'yarou114514';
             //deleteで消すレコードにフラグを立てる。
             //selectでflgが０のやつを取り出す。
             try {

@@ -11,8 +11,8 @@ if (!empty($_POST['delete1'])) {
     $eTime = $_POST['eTime'];//00:00
 }
 $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-$user = 'root';
-$password = '';
+$user = 'hoge';
+$password = 'yarou114514';
 
 try {
     $flg = "1";

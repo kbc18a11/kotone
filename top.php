@@ -198,8 +198,8 @@ if (!empty($_POST['dno1'])) {
     $userid = $_SESSION['id'];
 }
 $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-$user = 'root';
-$password = '';
+$user = 'hoge';
+$password = 'yarou114514';
 
 try {
     $db = new PDO($dsn, $user, $password);

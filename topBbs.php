@@ -20,8 +20,8 @@ if (empty($_SESSION['flg'])) {
 
         $userid = $_SESSION['id'];
         $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-        $user = 'root';
-        $password = '';
+        $user = 'hoge';
+        $password = 'yarou114514';
         try {
             $db = new PDO($dsn, $user, $password);
             $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
@@ -54,8 +54,8 @@ if (empty($_SESSION['flg'])) {
         $year = $_POST['year']; //年
         $month = $_POST['month']; //月
         $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-        $user = 'root';
-        $password = '';
+        $user = 'hoge';
+        $password = 'yarou114514';
         try {
             $flg = "0";
             $db = new PDO($dsn, $user, $password);
@@ -462,8 +462,8 @@ if (empty($_SESSION['flg'])) {
                     $etime = '';
                     $contents = '';
                     $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-                    $user = 'root';
-                    $password = '';
+                    $user = 'hoge';
+                    $password = 'yarou114514';
                     //deleteで消すレコードにフラグを立てる。
                     //selectでflgが０のやつを取り出す。
                     try {

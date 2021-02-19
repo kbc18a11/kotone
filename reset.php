@@ -27,8 +27,8 @@ if (!preg_match("/^[0-9]{4}$/", $pwd)) {
 }
 
 $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
-$user = 'root';
-$password = '';
+$user = 'hoge';
+$password = 'yarou114514';
 
 try {
     $db = new PDO($dsn, $user, $password);
