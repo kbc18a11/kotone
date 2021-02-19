@@ -170,7 +170,7 @@ session_start();
             $bangou = '';
             if (empty($_SESSION['flg2'])) {
                 $_SESSION['flg2'] = 1;
-                $_SESSION['cnt5'] = '249';//db housesにAIで追加されている最新のid値を設定(ログアウトするとセッション消える)
+                $_SESSION['cnt5'] = '247';//db housesにAIで追加されている最新のid値を設定(ログアウトするとセッション消える)
                 $bangou = $_SESSION['cnt5'];
             }else{
                 $bangou = $_SESSION['cnt5'];
