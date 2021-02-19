@@ -286,7 +286,7 @@ if (!empty($_POST['year'])) {
         <table border="1" style="width:100%; margin-top:20px;">
             <?php
             if (!empty($_SESSION['lcnt']) && $_SESSION['lcnt'] != 0 && !empty($_POST['year'])) {
-                echo "<tr style='background-color: rgb(255, 255, 153)'><td>項目</td><td>金額</td></tr>";
+                echo "<tr style='background-color: rgb(255, 255, 153)'><td style='text-align:center'>項目</td><td style='text-align:center'>金額</td></tr>";
                 $harau = 0;
                 $uketoru = 0;
                 for ($j = 1; $j <= $max; $j++) {
