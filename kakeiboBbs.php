@@ -17,10 +17,10 @@ session_start();
             <div class="menu-title">メニュー</div>
             <div class="sub-menu">
                 <ul>
-                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php">トップページ</a></li>
-                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/kakeiboBbs.php">家計簿入力</a></li>
-                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/list.php">家計簿表</a></li>
-                    <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/logout.php">ログアウト</a></li>
+                    <li><a href="./topBbs.php">トップページ</a></li>
+                    <li><a href="./kakeiboBbs.php">家計簿入力</a></li>
+                    <li><a href="./list.php">家計簿表</a></li>
+                    <li><a href="./logout.php">ログアウト</a></li>
                 </ul>
             </div>
         </div>

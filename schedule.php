@@ -11,7 +11,7 @@ if (!empty($_POST['save1'])) {
     $sTime = $_POST['sTime'];//15:57
     $eTime = $_POST['eTime'];//00:00
 }
-$dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+$dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
 $user = 'hoge';
 $password = 'yarou114514';
 
@@ -33,7 +33,7 @@ try {
         $stmt->bindParam(':flg', $flg, PDO::PARAM_STR);
         $stmt->execute();
         //var_dump("通ってるよ");
-        header('Location: http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php');
+        header('Location: ./topBbs.php');
         exit();
 } catch (PDOException $e) {
     die('エラー' . $e->getMessage());

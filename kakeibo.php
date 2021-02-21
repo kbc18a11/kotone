@@ -3,7 +3,7 @@ session_start();
 
 if (!empty($_POST['item'])) {//確定ボタン押したとき
     //file_put_contents('log.txt',$_SESSION['id']);
-    $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+    $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
     $user = 'hoge';
     $password = 'yarou114514';
     try {
@@ -30,7 +30,7 @@ if (!empty($_POST['item'])) {//確定ボタン押したとき
 
 if (!empty($_POST['no'])) {//削除ボタン押したとき
     file_put_contents('log.txt',$_POST['no']);
-    $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+    $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
     $user = 'hoge';
     $password = 'yarou114514';
     try {

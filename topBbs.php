@@ -19,7 +19,7 @@ if (empty($_SESSION['flg'])) {
         $hantei = 'hantei' . (string)$i;
 
         $userid = $_SESSION['id'];
-        $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+        $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
         $user = 'hoge';
         $password = 'yarou114514';
         try {
@@ -53,7 +53,7 @@ if (empty($_SESSION['flg'])) {
         $userid = $_SESSION['id'];
         $year = $_POST['year']; //年
         $month = $_POST['month']; //月
-        $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+        $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
         $user = 'hoge';
         $password = 'yarou114514';
         try {
@@ -99,10 +99,10 @@ if (empty($_SESSION['flg'])) {
                     <div class="menu-title">メニュー</div>
                     <div class="sub-menu">
                         <ul>
-                            <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/topBbs.php">トップページ</a></li>
-                            <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/kakeiboBbs.php">家計簿入力</a></li>
-                            <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/list.php">家計簿表</a></li>
-                            <li><a href="http://v118-27-20-249.tkzi.static.cnode.io/kotone/logout.php">ログアウト</a></li>
+                            <li><a href="./topBbs.php">トップページ</a></li>
+                            <li><a href="./kakeiboBbs.php">家計簿入力</a></li>
+                            <li><a href="./list.php">家計簿表</a></li>
+                            <li><a href="./logout.php">ログアウト</a></li>
                         </ul>
                     </div>
                 </div>
@@ -461,7 +461,7 @@ if (empty($_SESSION['flg'])) {
                     $stime = '';
                     $etime = '';
                     $contents = '';
-                    $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+                    $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
                     $user = 'hoge';
                     $password = 'yarou114514';
                     //deleteで消すレコードにフラグを立てる。

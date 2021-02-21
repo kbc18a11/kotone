@@ -26,7 +26,7 @@ if (!preg_match("/^[0-9]{4}$/", $pwd)) {
     header('Location: registerBbs.php');
 }
 
-$dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+$dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
 $user = 'hoge';
 $password = 'yarou114514';
 

@@ -9,7 +9,7 @@ if (isset($_SESSION['userid'])) { //セッションにユーザーIDがある
     //ログインしてないがメールアドレスとパスワードが送信されたとき
 
     //データベースに接続
-    $dsn = 'mysql:host=localhost;dbname=kotone;charset=utf8';
+    $dsn = 'mysql:host=db;dbname=kotone;charset=utf8';
     $user = 'hoge';
     $password = 'yarou114514';
 
